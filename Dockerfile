@@ -9,4 +9,5 @@ cd /tmp/ruby-2.1.2/ && \
 make && \
 make install && \
 rm -rf /tmp/* 
+RUN gem install bundler
 EXPOSE 80
